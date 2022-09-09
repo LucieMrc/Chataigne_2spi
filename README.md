@@ -38,15 +38,38 @@ Lorsque la case `Auto Add` est cochée, les valeurs des touches de mon controleu
 
 ## State Machine
 
-On peux exploiter ce genre de données dans la State Machine, en créant des conditions.
+On peux exploiter ce genre de données dans la State Machine, en créant des conditions : on crée un nouveau State en double-cliquant sur la partie State Machine.
 
 ![Screenshot de la création d'un State'](./images/screen7.png)
 
-On peux créer un State en double-cliquant sur la partie State Machine.
-
-En cliquant sur le + en haut à droite, on peux créer une Action et  choisir ses conditions dans les paramètres de l'Inspector.
+En cliquant sur le + en haut à droite, on peux créer une Action et  choisir ses conditions dans ses paramètres dans l'Inspector.
 
 ![Screenshot des conditions d'un state'](./images/screen8.png)
 
-## Connecter Madmapper et Chataigne
+On sélectionne la valeur sur laquelle on teste la condition, ici la première touche `A-2` de mon controleur, dans le module MIDI, dans la partie `From Input Value`.
+
+![Screenshot des conditions d'un state'](./images/screen9.png)
+
+On choisit ensuite la condition qu'on teste, à quoi est-ce qu'on compare notre valeur, ici quand la valeur de la touche est égale à 127 (donc qu'elle est appuyée).
+
+![Screenshot des conditions d'un state'](./images/screen10.png)
+
+Dans les parties `Consequences : TRUE` et `Consequences : FALSE`, on peux ainsi lancer des actions qui se déclenchent en fonction de si la condition est remplie ou non.
+
+### Connecter Madmapper et Chataigne
+
+On peux par exemple contrôler des visuels sur Madmapper avec les actions de Chataigne.
+
+Pour cela, il faut ajouter le module OSCQuery, qui permet de récuperer les données de MadMapper en OSC.
+
+Il faut que le port `Remote port` dans les paramètres OSCQuery soit le même que l'`OSC Input Port` dans les Préférences de Madmapper pour qu'ils puissent communiquer : ici 8010.
+![Screenshot des paramètres OSCQuery'](./images/screen12.png)
+
+![Screenshot des préferences de Madmapper'](./images/screen11.png)
+
+Une fois que c'est le cas, les élements de Madmapper apparaissent dans la partie `Values` des paramètres d'OSCQuery :
+
+![Screenshot des valeurs dans OSCQuery'](./images/screen13.png)
+
+
 
