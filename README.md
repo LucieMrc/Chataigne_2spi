@@ -71,5 +71,15 @@ Une fois que c'est le cas, les élements de Madmapper apparaissent dans la parti
 
 ![Screenshot des valeurs dans OSCQuery'](./images/screen13.png)
 
+On peux retourner dans l'action crée précedemment dans la State Machine, cliquer sur le + dans les conséquences vraies et choisir `Set Value` dans `OSCQuery`. 
 
+![Screenshot des conséquences de la State Machine'](./images/screen14.png)
+
+On choisit ensuite quelle valeur on veux modifier, la `Target`: ici la visibilité de la surface Quad-1.
+
+![Screenshot des conséquences de la State Machine'](./images/screen15.png)
+
+
+
+![Screenshot des conséquences de la State Machine'](./images/screen16.png)
 
