@@ -79,7 +79,8 @@ On choisit ensuite quelle valeur on veux modifier, la `Target`: ici la visibilit
 
 ![Screenshot des conséquences de la State Machine'](./images/screen15.png)
 
-
+Dans `Operator`, on peux ensuite choisir de donner de modifier cette valeur, d'y ajouter un chiffre ou de l'inverser. Je choisis ici de l'inverser, la visibilité de la surface étant un booléen.
 
 ![Screenshot des conséquences de la State Machine'](./images/screen16.png)
 
+Ainsi, dès que j'appuie sur la première touche de mon contrôleur MIDI, la surface disparaît ou apparaît dans MadMapper.
