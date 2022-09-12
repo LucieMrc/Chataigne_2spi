@@ -42,6 +42,8 @@ On peux exploiter ce genre de données dans la State Machine, en créant des con
 
 ![Screenshot de la création d'un State'](./images/screen7.png)
 
+### Actions
+
 En cliquant sur le + en haut à droite, on peux créer une Action et  choisir ses conditions dans ses paramètres dans l'Inspector.
 
 ![Screenshot des conditions d'un state'](./images/screen8.png)
@@ -84,3 +86,15 @@ Dans `Operator`, on peux ensuite choisir de donner de modifier cette valeur, d'y
 ![Screenshot des conséquences de la State Machine'](./images/screen16.png)
 
 Ainsi, dès que j'appuie sur la première touche de mon contrôleur MIDI, la surface disparaît ou apparaît dans MadMapper.
+
+### Mapping
+
+![Screenshot de la création d'un mapping'](./images/screen17.png)
+
+En cliquant sur le + en haut à droite du `State`, on peux créer un Mapping et  choisir ses conditions dans ses paramètres dans l'Inspector.
+
+Un mapping 
+
+
+
+
