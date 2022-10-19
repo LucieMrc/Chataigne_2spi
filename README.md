@@ -1,6 +1,6 @@
 # Utiliser Chataigne rapidement
 
-**Comment utiliser Chataigne pour interfacer et faire le lien entre différents logiciels, protocoles et devices.**
+**Ou comment utiliser Chataigne pour interfacer et faire le lien entre différents logiciels, protocoles et devices.**
 
 ## L'interface
 
