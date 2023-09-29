@@ -1,4 +1,4 @@
-# 🚧 Utiliser Chataigne rapidement 🚧
+# 🚧🚧🚧 Utiliser Chataigne rapidement 🚧🚧🚧
 
 **Ou comment utiliser Chataigne pour interfacer et faire le lien entre différents logiciels, protocoles et devices.**
 
@@ -95,6 +95,10 @@ En cliquant sur le + en haut à droite du `State`, on peux créer un Mapping et 
 
 Un mapping 
 
+# Pour aller + loin
 
+- La [documentation officielle de Chataigne](https://bkuperberg.gitbook.io/chataigne-docs/v/fr/)
+
+- Le tuto [Touchdesigner vers Chataigne](https://github.com/LucieMrc/TouchDesigner_Chataigne).
 
 
