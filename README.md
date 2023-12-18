@@ -93,7 +93,7 @@ Ainsi, dès que j'appuie sur la première touche de mon contrôleur MIDI, la sur
 
 En cliquant sur le + en haut à droite du `State`, on peux créer un Mapping et  choisir ses conditions dans ses paramètres dans l'Inspector.
 
-Un mapping 
+Un mapping (finir phrase)
 
 # Pour aller + loin
 
